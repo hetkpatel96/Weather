@@ -50,14 +50,14 @@ body {
 }
 
 /* Main header */
-.carousel-inner{
+/* .carousel-inner{
   width: 40rem;
-}
-.main_header{
+} */
+/* .main_header{
   overflow: hidden;
-}
+} */
 .main_header_left {
-  height: 50rem;
+  height: 70rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,7 +87,7 @@ body {
   box-shadow: 0 8px 6px -6px var(--main-color);
 }
 .main_header_right {
-  height: 50rem;
+  height: 70rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -219,7 +219,6 @@ sup {
 
 .about_image{
   width: 33rem;
-  
 }
 
 /* Footer code */
