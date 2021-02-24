@@ -14,7 +14,13 @@ const getInfo = async(event) => {
     if(cityVal === ""){
         city_name.innerText = `Please enter the city name before search`;
         datahide.classList.add("data_hide");
-    }else{
+    }
+    else if(!isNaN(cityVal)){
+        //alert('Please enter characters only')
+        city_name.innerText = `Please enter only letters`;
+        datahide.classList.add("data_hide");
+    }
+    else{
 
         try{
            
